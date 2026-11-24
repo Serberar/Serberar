@@ -40,6 +40,17 @@ Least privilege, validated input, secrets out of the code and verified downloads
 4. **Automate what repeats.** Tests, build and release on every change.
 5. **Document just enough.** A README that gets you running and explains why.
 
+### Projects
+
+| Project | What it is | Highlights |
+|---|---|---|
+| [escritorio-remoto](https://github.com/Serberar/escritorio-remoto) | Serverless remote desktop for Windows, connect by ID | Custom X25519 + AES-256-GCM protocol, UDP hole punching, hardened Electron |
+| [chati-ia](https://github.com/Serberar/chati-ia) | Local AI assistant: chat, documents, voice, images and a coding agent | FastAPI, Ollama, RAG, per-user encryption at rest |
+| [cinerent-backend](https://github.com/Serberar/cinerent-backend) · [frontend](https://github.com/Serberar/cinerent-frontend) | Online film rental: API and web app | Hexagonal architecture with a layer test, Prisma, React. [Demo](https://serberar.github.io/cinerent-frontend/) |
+| [github-swap](https://github.com/Serberar/github-swap) | Manager for several GitHub accounts | Electron, automatic SSH keys, SHA-256 verified updates |
+| [repaso-espaciado](https://github.com/Serberar/repaso-espaciado) | PWA to prepare multiple-choice exams | Spaced repetition, offline, Supabase. [Demo](https://serberar.github.io/repaso-espaciado/) |
+| [claude-usage](https://github.com/Serberar/claude-usage) · [token-diet](https://github.com/Serberar/token-diet) | Tools for Claude Code | Python tray app and a plugin with hooks and token auditing |
+
 ### Tools
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-0d1830?style=for-the-badge&logo=typescript&logoColor=3178C6)
