@@ -1,4 +1,4 @@
-![Sergio Bernabé, Software Engineer](header.svg)
+![Sergio Bernabé, Software Engineer](banner.svg)
 
 <p align="right"><b>Español</b> · <a href="README.en.md">English</a></p>
 
