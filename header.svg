@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="Sergio Bernabé, Software Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b14"/>
+      <stop offset="0.55" stop-color="#0d1830"/>
+      <stop offset="1" stop-color="#10243f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#7dd3fc" stroke-opacity="0.055"/>
+    </pattern>
+    <clipPath id="card"><rect width="1000" height="300" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .in { opacity: 0; animation: in .8s ease-out forwards }
+    .d1 { animation-delay: .15s } .d2 { animation-delay: .4s } .d3 { animation-delay: .65s }
+    .ring { transform-origin: 800px 150px; animation: turn 60s linear infinite }
+    .ring.b { animation-duration: 90s; animation-direction: reverse }
+    .flow { stroke-dasharray: 5 95; animation: flow 3.6s linear infinite }
+    .f2 { animation-delay: -.6s } .f3 { animation-delay: -1.2s } .f4 { animation-delay: -1.8s } .f5 { animation-delay: -2.4s } .f6 { animation-delay: -3s }
+    .core { animation: pulse 3.6s ease-in-out infinite }
+    .bar { transform: scaleX(0); transform-origin: 64px 0; animation: grow .9s .6s ease-out forwards }
+    @keyframes in { from { opacity: 0; transform: translateY(10px) } to { opacity: 1; transform: none } }
+    @keyframes turn { to { transform: rotate(360deg) } }
+    @keyframes flow { from { stroke-dashoffset: 100 } to { stroke-dashoffset: 0 } }
+    @keyframes pulse { 50% { opacity: .55 } }
+    @keyframes grow { to { transform: scaleX(1) } }
+    @media (prefers-reduced-motion: reduce) {
+      .in, .ring, .flow, .core, .bar { animation: none; opacity: 1; transform: none }
+      .flow { opacity: 0 }
+    }
+  </style>
+  <g clip-path="url(#card)">
+    <rect width="1000" height="300" fill="url(#bg)"/>
+    <rect width="1000" height="300" fill="url(#grid)"/>
+    <circle class="core" cx="800" cy="150" r="190" fill="url(#glow)"/>
+    <g fill="none" stroke="#7dd3fc">
+      <path class="ring" stroke-opacity="0.2" stroke-width="1.5" d="M800 30 L904 90 L904 210 L800 270 L696 210 L696 90 Z"/>
+      <path class="ring b" stroke-opacity="0.12" stroke-width="1.5" d="M800 -10 L939 70 L939 230 L800 310 L661 230 L661 70 Z"/>
+      <path stroke-opacity="0.65" stroke-width="2" d="M800 92 L850 121 L850 179 L800 208 L750 179 L750 121 Z"/>
+      <g stroke-opacity="0.22" stroke-width="1.5">
+        <path d="M800 92 V30"/><path d="M850 121 L904 90"/><path d="M850 179 L904 210"/>
+        <path d="M800 208 V270"/><path d="M750 179 L696 210"/><path d="M750 121 L696 90"/>
+      </g>
+    </g>
+    <g fill="none" stroke="#34d399" stroke-width="3" stroke-linecap="round">
+      <path class="flow" pathLength="100" d="M800 30 V92"/><path class="flow f2" pathLength="100" d="M904 90 L850 121"/>
+      <path class="flow f3" pathLength="100" d="M904 210 L850 179"/><path class="flow f4" pathLength="100" d="M800 270 V208"/>
+      <path class="flow f5" pathLength="100" d="M696 210 L750 179"/><path class="flow f6" pathLength="100" d="M696 90 L750 121"/>
+    </g>
+    <circle class="core" cx="800" cy="150" r="13" fill="#34d399"/>
+    <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+      <text class="in d1" x="62" y="138" font-size="60" font-weight="700" fill="#f8fafc" letter-spacing="-1.2">Sergio Bernabé</text>
+      <text class="in d2" x="64" y="180" font-size="26" fill="#cbd5e1">Software Engineer</text>
+      <rect class="bar" x="64" y="202" width="150" height="4" rx="2" fill="url(#accent)"/>
+      <text class="in d3" x="64" y="244" font-size="17" fill="#8ea3bf" font-family="Consolas, Menlo, monospace">TypeScript / Node.js / React / Python</text>
+    </g>
+  </g>
+</svg>
