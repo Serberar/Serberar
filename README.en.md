@@ -6,6 +6,8 @@
 
 I design and build products end to end: domain model, API, interface, tests and deployment. I favour code that someone else can understand, test and change without fear.
 
+> **Now:** founder and lead developer of **[RecruitSpace](https://recruitspace.es/)**, a multi-tenant recruiting SaaS in production with paying subscriptions. Backend in Node.js, TypeScript and Prisma with hexagonal architecture, React frontend and Docker infrastructure. Over 20 years building for the web.
+
 <table>
 <tr>
 <td width="33%" valign="top">
