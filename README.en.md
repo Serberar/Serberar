@@ -53,6 +53,8 @@ Least privilege, validated input, secrets out of the code and verified downloads
 | [repaso-espaciado](https://github.com/Serberar/repaso-espaciado) | PWA to prepare multiple-choice exams | Spaced repetition, offline, Supabase. [Demo](https://serberar.github.io/repaso-espaciado/) |
 | [claude-usage](https://github.com/Serberar/claude-usage) · [token-diet](https://github.com/Serberar/token-diet) | Tools for Claude Code | Python tray app and a plugin with hooks and token auditing |
 
+Several projects were previously developed in private.
+
 ### Tools
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-0d1830?style=for-the-badge&logo=typescript&logoColor=3178C6)

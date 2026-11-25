@@ -53,6 +53,8 @@ Mínimo privilegio, entradas validadas, secretos fuera del código y descargas v
 | [repaso-espaciado](https://github.com/Serberar/repaso-espaciado) | PWA para preparar exámenes tipo test | Repetición espaciada, offline, Supabase. [Demo](https://serberar.github.io/repaso-espaciado/) |
 | [claude-usage](https://github.com/Serberar/claude-usage) · [token-diet](https://github.com/Serberar/token-diet) | Herramientas para Claude Code | App de bandeja en Python y plugin con hooks y auditoría de tokens |
 
+Varios proyectos se desarrollaron antes en privado.
+
 ### Herramientas
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-0d1830?style=for-the-badge&logo=typescript&logoColor=3178C6)
