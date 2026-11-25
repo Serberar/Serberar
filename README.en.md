@@ -6,7 +6,7 @@
 
 I design and build products end to end: domain model, API, interface, tests and deployment. I favour code that someone else can understand, test and change without fear.
 
-> **Now:** I build **[RecruitSpace](https://recruitspace.es/)**, a multi-tenant recruiting SaaS in production. It is a personal project, free to use. Backend in Node.js, TypeScript and Prisma with hexagonal architecture, React frontend and Docker infrastructure. Over 20 years building for the web.
+> **Now:** I build **[RecruitSpace](https://recruitspace.es/)**, a multi-tenant recruiting SaaS in production. It is a personal project, free to use. Backend in Node.js, TypeScript and Prisma with hexagonal architecture, React frontend and Docker infrastructure.
 
 <table>
 <tr>

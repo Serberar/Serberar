@@ -6,7 +6,7 @@
 
 Diseño y construyo producto de principio a fin: el modelo de dominio, la API, la interfaz, las pruebas y el despliegue. Prefiero el código que otra persona puede entender, probar y cambiar sin miedo.
 
-> **Ahora:** creo y desarrollo **[RecruitSpace](https://recruitspace.es/)**, un SaaS multi-tenant de selección de personal en producción. Es un proyecto personal y gratuito. Backend en Node.js, TypeScript y Prisma con arquitectura hexagonal, frontend en React e infraestructura en Docker. Más de 20 años construyendo para la web.
+> **Ahora:** creo y desarrollo **[RecruitSpace](https://recruitspace.es/)**, un SaaS multi-tenant de selección de personal en producción. Es un proyecto personal y gratuito. Backend en Node.js, TypeScript y Prisma con arquitectura hexagonal, frontend en React e infraestructura en Docker.
 
 <table>
 <tr>
