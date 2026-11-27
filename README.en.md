@@ -6,7 +6,7 @@
 
 I design and build products end to end: domain model, API, interface, tests and deployment. I favour code that someone else can understand, test and change without fear.
 
-> **Now:** I build **[RecruitSpace](https://recruitspace.es/)**, a multi-tenant recruiting SaaS in production. It is a personal project, free to use. Backend in Node.js, TypeScript and Prisma with hexagonal architecture, React frontend and Docker infrastructure.
+> **Now:** I build **RecruitSpace**, a multi-tenant recruiting SaaS in production. It is a personal project, free to use. Backend in Node.js, TypeScript and Prisma with hexagonal architecture, React frontend and Docker infrastructure.
 
 <table>
 <tr>
@@ -46,26 +46,17 @@ Least privilege, validated input, secrets out of the code and verified downloads
 
 | Project | What it is | Highlights |
 |---|---|---|
-| [escritorio-remoto](https://github.com/Serberar/escritorio-remoto) | Serverless remote desktop for Windows, connect by ID | Custom X25519 + AES-256-GCM protocol, UDP hole punching, hardened Electron |
-| [chati-ia](https://github.com/Serberar/chati-ia) | Local AI assistant: chat, documents, voice, images and a coding agent | FastAPI, Ollama, RAG, per-user encryption at rest |
-| [cinerent-backend](https://github.com/Serberar/cinerent-backend) · [frontend](https://github.com/Serberar/cinerent-frontend) | Online film rental: API and web app | Hexagonal architecture with a layer test, Prisma, React. [Demo](https://serberar.github.io/cinerent-frontend/) |
-| [github-swap](https://github.com/Serberar/github-swap) | Manager for several GitHub accounts | Electron, automatic SSH keys, SHA-256 verified updates |
-| [repaso-espaciado](https://github.com/Serberar/repaso-espaciado) | PWA to prepare multiple-choice exams | Spaced repetition, offline, Supabase. [Demo](https://serberar.github.io/repaso-espaciado/) |
-| [claude-usage](https://github.com/Serberar/claude-usage) · [token-diet](https://github.com/Serberar/token-diet) | Tools for Claude Code | Python tray app and a plugin with hooks and token auditing |
+| escritorio-remoto | Serverless remote desktop for Windows, connect by ID | Custom X25519 + AES-256-GCM protocol, UDP hole punching, hardened Electron |
+| chati-ia | Local AI assistant: chat, documents, voice, images and a coding agent | FastAPI, Ollama, RAG, per-user encryption at rest |
+| cinerent-backend · frontend | Online film rental: API and web app | Hexagonal architecture with a layer test, Prisma, React. Demo |
+| github-swap | Manager for several GitHub accounts | Electron, automatic SSH keys, SHA-256 verified updates |
+| repaso-espaciado | PWA to prepare multiple-choice exams | Spaced repetition, offline, Supabase. Demo |
+| claude-usage · token-diet | Tools for Claude Code | Python tray app and a plugin with hooks and token auditing |
 
 Several projects were previously developed in private.
 
 ### Tools
 
-![TypeScript](https://img.shields.io/badge/TypeScript-0d1830?style=for-the-badge&logo=typescript&logoColor=3178C6)
-![Node.js](https://img.shields.io/badge/Node.js-0d1830?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E)
-![React](https://img.shields.io/badge/React-0d1830?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Python](https://img.shields.io/badge/Python-0d1830?style=for-the-badge&logo=python&logoColor=3776AB)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d1830?style=for-the-badge&logo=postgresql&logoColor=4169E1)
-![Prisma](https://img.shields.io/badge/Prisma-0d1830?style=for-the-badge&logo=prisma&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-0d1830?style=for-the-badge&logo=docker&logoColor=2496ED)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0d1830?style=for-the-badge&logo=githubactions&logoColor=2088FF)
-
 ### Let's talk
 
-[LinkedIn](https://www.linkedin.com/in/sergio-bernabe-arahuetes)
+LinkedIn
