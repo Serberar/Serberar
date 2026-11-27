@@ -6,7 +6,7 @@
 
 Diseño y construyo producto de principio a fin: el modelo de dominio, la API, la interfaz, las pruebas y el despliegue. Prefiero el código que otra persona puede entender, probar y cambiar sin miedo.
 
-> **Ahora:** creo y desarrollo **[RecruitSpace](https://recruitspace.es/)**, un SaaS multi-tenant de selección de personal en producción. Es un proyecto personal y gratuito. Backend en Node.js, TypeScript y Prisma con arquitectura hexagonal, frontend en React e infraestructura en Docker.
+> **Ahora:** creo y desarrollo **RecruitSpace**, un SaaS multi-tenant de selección de personal en producción. Es un proyecto personal y gratuito. Backend en Node.js, TypeScript y Prisma con arquitectura hexagonal, frontend en React e infraestructura en Docker.
 
 <table>
 <tr>
@@ -46,26 +46,17 @@ Mínimo privilegio, entradas validadas, secretos fuera del código y descargas v
 
 | Proyecto | Qué es | Destacado |
 |---|---|---|
-| [escritorio-remoto](https://github.com/Serberar/escritorio-remoto) | Escritorio remoto para Windows por ID, sin servidor | Protocolo propio X25519 + AES-256-GCM, UDP hole punching, Electron endurecido |
-| [chati-ia](https://github.com/Serberar/chati-ia) | Asistente de IA local: chat, documentos, voz, imagen y agente de código | FastAPI, Ollama, RAG, cifrado en reposo por usuario |
-| [cinerent-backend](https://github.com/Serberar/cinerent-backend) · [frontend](https://github.com/Serberar/cinerent-frontend) | Videoclub online: API y web | Arquitectura hexagonal con prueba de capas, Prisma, React. [Demo](https://serberar.github.io/cinerent-frontend/) |
-| [github-swap](https://github.com/Serberar/github-swap) | Gestor de varias cuentas de GitHub | Electron, claves SSH automáticas, actualizaciones verificadas con SHA-256 |
-| [repaso-espaciado](https://github.com/Serberar/repaso-espaciado) | PWA para preparar exámenes tipo test | Repetición espaciada, offline, Supabase. [Demo](https://serberar.github.io/repaso-espaciado/) |
-| [claude-usage](https://github.com/Serberar/claude-usage) · [token-diet](https://github.com/Serberar/token-diet) | Herramientas para Claude Code | App de bandeja en Python y plugin con hooks y auditoría de tokens |
+| escritorio-remoto | Escritorio remoto para Windows por ID, sin servidor | Protocolo propio X25519 + AES-256-GCM, UDP hole punching, Electron endurecido |
+| chati-ia | Asistente de IA local: chat, documentos, voz, imagen y agente de código | FastAPI, Ollama, RAG, cifrado en reposo por usuario |
+| cinerent-backend · frontend | Videoclub online: API y web | Arquitectura hexagonal con prueba de capas, Prisma, React. Demo |
+| github-swap | Gestor de varias cuentas de GitHub | Electron, claves SSH automáticas, actualizaciones verificadas con SHA-256 |
+| repaso-espaciado | PWA para preparar exámenes tipo test | Repetición espaciada, offline, Supabase. Demo |
+| claude-usage · token-diet | Herramientas para Claude Code | App de bandeja en Python y plugin con hooks y auditoría de tokens |
 
 Varios proyectos se desarrollaron antes en privado.
 
 ### Herramientas
 
-![TypeScript](https://img.shields.io/badge/TypeScript-0d1830?style=for-the-badge&logo=typescript&logoColor=3178C6)
-![Node.js](https://img.shields.io/badge/Node.js-0d1830?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E)
-![React](https://img.shields.io/badge/React-0d1830?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Python](https://img.shields.io/badge/Python-0d1830?style=for-the-badge&logo=python&logoColor=3776AB)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d1830?style=for-the-badge&logo=postgresql&logoColor=4169E1)
-![Prisma](https://img.shields.io/badge/Prisma-0d1830?style=for-the-badge&logo=prisma&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-0d1830?style=for-the-badge&logo=docker&logoColor=2496ED)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0d1830?style=for-the-badge&logo=githubactions&logoColor=2088FF)
-
 ### Hablemos
 
-[LinkedIn](https://www.linkedin.com/in/sergio-bernabe-arahuetes)
+LinkedIn
